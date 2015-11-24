@@ -1,0 +1,18 @@
+Source: etcd
+Section: admin
+Priority: optional
+Maintainer: Erick Cantwell <ecantwell@mirantis.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+Homepage: http://github.com/coreos/etcd
+Vcs-Git: git://github.com/coreos/etcd.git
+Vcs-Browser: https://github.com/coreos/etcd.git
+
+Package: etcd
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: etcd is a distributed, consistent key-value store for shared configuration and service discovery, with a focus on being:
+ Simple: curl'able user-facing API (HTTP+JSON)
+ Secure: optional SSL client cert authentication
+ Fast: benchmarked 1000s of writes/s per instance
+ Reliable: properly distributed using Raft

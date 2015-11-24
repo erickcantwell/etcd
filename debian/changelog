@@ -1,0 +1,7 @@
+etcd (2.2-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Erick Cantwell <ecantwell@mirantis.com>  Mon, 23 Nov 2015 13:52:27 -0700
+
+
